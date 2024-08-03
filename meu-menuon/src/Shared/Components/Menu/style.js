@@ -24,6 +24,8 @@ const MenuContainer = styled.nav`
 `;
 
 const LogoContainer = styled.div`
+  display: flex;
+  align-items: center;
   width: 30%;
   @media (width >= ${breakpoints.tablet}) {
     width: 20%;
